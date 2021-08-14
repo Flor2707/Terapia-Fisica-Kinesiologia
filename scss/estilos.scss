@@ -1,0 +1,16 @@
+@import "listas";
+@import "nav";
+@import "inicio";
+@import "consultas";
+@import "servicios";
+@import "serv";
+@import "obrassociales";
+@import "quiensoy";
+@import "links";
+@import "footer";
+@import "form";
+
+body {
+    background-color:nth($colores,4) !important;
+}
+

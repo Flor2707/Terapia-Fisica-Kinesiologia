@@ -1,0 +1,47 @@
+@import "listas";
+
+div.consulta {
+    
+    padding: 0vw;
+    max-width: 100%;
+    height: auto;
+    background-color: #5fafab;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0vw;
+    
+    div.card {
+    
+        margin: 3vw;
+        margin-bottom: 1vw;
+        border: none;
+     
+        div.card-body{
+            color: nth($colores,3);
+            background-color:#5fafab ;
+            padding: 0vw;
+            font-weight: bolder;
+            .btn {
+                background-color: #5fafab;
+                color: white;
+                border: 2px solid white;
+                padding: 1vw;
+                border-radius: 5px;
+                font-size: 1.1rem;
+                margin-top: 3vw;
+                margin-bottom: 3vw;
+
+                &:hover {
+                    color: nth($colores,13);
+                    border-color: nth($colores,13);
+                }
+            }
+            .card-title {
+                font-weight: bold;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

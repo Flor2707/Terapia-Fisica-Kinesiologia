@@ -1,0 +1,51 @@
+/* footer */
+@import "listas";
+footer.footer {
+    background-color:nth($colores,6);
+    padding-bottom: 15px !important;
+    padding-left: 40px;
+    padding-right: 40px;
+    .container {
+        color: nth($colores,8);
+        text-align: center;
+        font-size: 13px;
+        div div a {
+            color: nth($colores,5);
+            font-weight: bolder;
+        
+        }
+        div div ul {
+            margin-left: -2rem;
+        }
+    }
+}
+
+a.float {
+    position: fixed;
+    width: 60px;
+    height: 57px;
+    bottom: 105px;
+    right: 10px;
+    background-color: #01B32B;
+    color: #FFF !important;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 34px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 6;
+}
+
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 17px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: nth($colores,5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
