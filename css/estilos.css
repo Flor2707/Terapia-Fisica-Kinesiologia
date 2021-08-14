@@ -265,6 +265,12 @@ div.card-deck {
   padding: 1vw;
   margin: 4vw;
 }
+@media screen and (max-width: 801px) {
+  div.card-deck {
+    max-width: 60%;
+    padding: 0vw !important;
+  }
+}
 div.card-deck div.card {
   padding: 1vw;
   border: solid 3px #9297AA;

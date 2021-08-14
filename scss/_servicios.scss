@@ -61,12 +61,18 @@ section.introduccion-s {
 div.card-deck {
     padding: 1vw;
     margin: 4vw;
+    @media screen and (max-width: 801px){
+                
+        max-width: 60%;
+        padding: 0vw !important;
+         }
     div.card {
         padding: 1vw;
         border: solid 3px nth($colores,12);
         &:hover {
             background-color: nth($colores,11);
         }
+        
         img.card-img-top {
             max-width: 30%;
             text-align: center;
