@@ -13,7 +13,7 @@ section.blockinfo {
             text-shadow: 2px 2px 2px whitesmoke;
             padding-top: 4vw;
             font-size: 2.5rem;
-            color: nth($colores,5);  
+            color: nth($colores,13);  
             @media screen and (max-width: 700px){
                
                 font-size: 1.5rem;
@@ -35,10 +35,10 @@ section.blockinfo {
         }}
         div div div span.display-3 {
             font-size: 22px;
-            color: nth($colores,5)
+            color: nth($colores,13)
          }
          div div div h3.mb-4 {
-             color: nth($colores,5);
+             color: nth($colores,13);
              font-weight: bolder;
              font-size: 25px;
          }
