@@ -332,9 +332,9 @@ div.card-deck div.card h5.card-title {
 }
 @media screen and (max-width: 700px) {
   .btn-s {
-    font-size: 7px;
+    font-size: 8.5px;
     margin-top: 8px;
-    max-width: 80%;
+    max-width: 87%;
   }
 }
 
