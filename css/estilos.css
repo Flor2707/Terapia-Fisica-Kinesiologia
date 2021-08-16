@@ -223,10 +223,6 @@ div.consulta div.card div.card-body .btn {
 div.consulta div.card div.card-body .btn:hover {
   color: #00C2CB;
   border-color: #00C2CB;
-  -webkit-transform: rotateY(180deg);
-  -webkit-transform-style: preserve-3d;
-  transform: rotateY(180deg);
-  transform-style: preserve-3d;
 }
 div.consulta div.card div.card-body .card-title {
   font-weight: bold;
@@ -328,7 +324,7 @@ div.card-deck div.card h5.card-title {
   text-transform: uppercase;
   border-radius: 15px;
   margin-top: 1vw;
-  margin-bottom: 4vw;
+  margin-bottom: 6vw;
 }
 .btn-s:hover {
   color: #44515A;
@@ -543,6 +539,12 @@ section.blockinfo div.container div div img.img-fluid {
     height: 150px;
   }
 }
+@media (min-width: 701px) and (max-width: 1000px) {
+  section.blockinfo div.container div div img.img-fluid {
+    width: 250px;
+    height: 250px;
+  }
+}
 section.blockinfo div.container div div div span.display-3 {
   font-size: 22px;
   color: #44515A;
@@ -593,8 +595,8 @@ section.links div.row .col-md-4 {
   padding-bottom: 23px;
 }
 section.links div.row .col-md-4 iframe {
-  margin-left: 4vw;
-  margin-right: 4vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
   width: 300px;
   height: 230px;
 }
@@ -602,6 +604,14 @@ section.links div.row .col-md-4 iframe {
   section.links div.row .col-md-4 iframe {
     width: 250px;
     height: 150px;
+    margin-left: 11vw;
+    margin-right: 3vw;
+  }
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+  section.links div.row .col-md-4 iframe {
+    max-width: 100%;
+    margin-left: 2vw;
   }
 }
 section.links div.row .col-md-4 p.infolinks {
@@ -611,6 +621,13 @@ section.links div.row .col-md-4 p.infolinks {
   padding-right: 3vw;
   font-weight: bolder;
   color: #44515A;
+}
+@media screen and (max-width: 800px) {
+  section.links div.row .col-md-4 p.infolinks {
+    font-size: 14px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
 }
 
 /* footer */
