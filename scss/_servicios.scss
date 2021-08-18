@@ -1,4 +1,4 @@
-/* servicios*/
+/* SERVICIOS DENTRO DE INDEX*/
 @import "listas";
 section#servicios {
     background-color: nth($colores,4);
@@ -36,15 +36,15 @@ section.introduccion-s {
         padding-top: 4vw;
         padding-bottom: 0vw;
     h4.titulo-s {
-        color: #44515A;
+        color: nth($colores,13);
         font-size: 2rem;
         font-family: "libre Franklin", sans-serif;
-        border-bottom: solid 3px #44515A;
+        border-bottom: solid 3px nth($colores,13);
         margin-left: 1.2em;
         margin-bottom: 1em;
     }
     p.parrafo-s {
-        color: #44515A;
+        color: nth($colores,13);
         font-family: "libre-Franklin", sans-serif;
         font-size: 1.3rem;
         text-align: center;

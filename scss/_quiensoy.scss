@@ -10,7 +10,7 @@ section.blockinfo {
     padding-right: 3vw;
          
         h2.mb-4 {
-            text-shadow: 2px 2px 2px whitesmoke;
+            text-shadow: 2px 2px 2px nth($colores,4);
             padding-top: 4vw;
             font-size: 2.5rem;
             color: nth($colores,13);  

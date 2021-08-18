@@ -1,4 +1,5 @@
 @import "listas";
+/* FORMULARIO */
 div.nav-form {
     background-image: url("../img/fonda.jpg");
     section.introduccion {
@@ -6,7 +7,7 @@ div.nav-form {
         color: nth($colores,11);
         h4.titform {
             color: nth($colores,3);
-          margin-bottom: 0vw;
+            margin-bottom: 0vw;
             border-bottom: solid 3px #C4AEF2;
         }
         p.parrafoform {
@@ -26,26 +27,23 @@ div.nav-form {
         padding-right: 25px !important;
         padding-bottom: 10px !important;
         padding-left: 25px !important;
-        border-left-color: rgba(255,255,255,0.3) !important;
+        border-left-color: nth($colores,16) !important;
         border-left-style: double !important;
-        border-right-color: rgba(255,255,255,0.3) !important;
+        border-right-color: nth($colores,16) !important;
         border-right-style: double !important;
-        border-top-color: rgba(255,255,255,0.3) !important;
+        border-top-color: nth($colores,16) !important;
         border-top-style: double !important;
-        border-bottom-color: rgba(255,255,255,0.3) !important;
+        border-bottom-color: nth($colores,16) !important;
         border-bottom-style: double !important;
-
-   
-      
     }
     form {
         color: nth($colores,3);
         font-weight: bolder;
-       margin: 2vw;
+        margin: 2vw;
         font-size: 1rem;
         button.btnform {
-            background:linear-gradient(to right, #C4AEF2, #7D7B80);
-            border-color: #7D7B80;
+            background:linear-gradient(to right, nth($colores,11), nth($colores,17));
+            border-color: nth($colores,17);
             font-weight: bold;
             &:hover {
                   scale: 1.1;  
@@ -74,7 +72,7 @@ nav.bg-light{
     }
     div {
         ul { margin-left: 30px;
-            margin-right: 15px;
+             margin-right: 15px;
             @media (min-width: 1000px) and (max-width: 1300px) {
                 margin-left: 2px;
                 margin-right: 2px;
