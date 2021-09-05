@@ -3,6 +3,8 @@
 /* NAVEGADOR E INICIO*/
 .nav-ini { 
     background-image: url("../img/fonda.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
   
 nav.bg-light{
     background-color: transparent !important;
@@ -18,7 +20,7 @@ nav.bg-light{
     }
     div {
         ul { margin-left: 1vw;
-            margin-right: 1vw;
+             margin-right: 1vw;
             @media (min-width: 1000px) and (max-width: 1300px) {
                 margin-left: 2px;
                 margin-right: 2px;

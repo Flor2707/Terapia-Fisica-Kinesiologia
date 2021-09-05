@@ -2,6 +2,8 @@
 /* NAVEGADOR E INICIO*/
 .nav-ini {
   background-image: url("../img/fonda.jpg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .nav-ini nav.bg-light {
   background-color: transparent !important;
@@ -53,7 +55,7 @@
 }
 .nav-ini nav.bg-light div ul li a:hover {
   color: #ffffff !important;
-  border-color: #C4AEF2 !important;
+  border-color: #ceb7ff !important;
   background-color: transparent;
   transform: scale(1.1, 1.1);
 }
@@ -107,7 +109,7 @@
     padding-bottom: 25px;
     background-size: unset;
     background-position: initial;
-    text-shadow: 1px 1px 2px #C4AEF2;
+    text-shadow: 1px 1px 2px #ceb7ff;
   }
 }
 .nav-ini section#inicio a button.btn {
@@ -237,7 +239,7 @@ div.card-deck div.card {
   border: solid 3px #9297AA;
 }
 div.card-deck div.card:hover {
-  background-color: #C4AEF2;
+  background-color: #ceb7ff;
 }
 div.card-deck div.card img.card-img-top {
   max-width: 30%;
@@ -273,7 +275,7 @@ div.card-deck div.card h5.card-title {
 }
 .btn-s:hover {
   color: #44515A;
-  background-color: #C4AEF2;
+  background-color: #ceb7ff;
 }
 @media screen and (max-width: 700px) {
   .btn-s {
@@ -337,7 +339,7 @@ body nav.bg-light div ul li a {
 }
 body nav.bg-light div ul li a:hover {
   color: #ffffff !important;
-  border-color: #C4AEF2 !important;
+  border-color: #ceb7ff !important;
   background-color: transparent;
   transform: scale(1.1, 1.1);
 }
@@ -590,7 +592,7 @@ footer.footer .container {
   font-size: 13px;
 }
 footer.footer .container div div a {
-  color: #C4AEF2;
+  color: #ceb7ff;
   font-weight: bolder;
 }
 footer.footer .container div div div .lista {
@@ -632,7 +634,7 @@ div.nav-form {
   background-image: url("../img/fonda.jpg");
 }
 div.nav-form section.introduccion {
-  color: #C4AEF2;
+  color: #ceb7ff;
 }
 div.nav-form section.introduccion h4.titform {
   color: #ffffff;
@@ -669,7 +671,7 @@ div.nav-form form {
   font-size: 1rem;
 }
 div.nav-form form button.btnform {
-  background: linear-gradient(to right, #C4AEF2, #7D7B80);
+  background: linear-gradient(to right, #ceb7ff, #7D7B80);
   border-color: #7D7B80;
   font-weight: bold;
 }
@@ -729,7 +731,7 @@ nav.bg-light div ul li a {
 nav.bg-light div ul li a:hover {
   color: whitesmoke !important;
   background-color: transparent;
-  border-color: #C4AEF2 !important;
+  border-color: #ceb7ff !important;
   transform: scale(1.1, 1.1);
 }
 nav.bg-light div ul li a .fa, nav.bg-light div ul li a .fab, nav.bg-light div ul li a .fad, nav.bg-light div ul li a .fal, nav.bg-light div ul li a .far, nav.bg-light div ul li a .fas {
